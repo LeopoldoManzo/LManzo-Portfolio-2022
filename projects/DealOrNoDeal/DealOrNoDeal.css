@@ -1,0 +1,17 @@
+body{
+    background-image: url('/images/mainBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+.nav-link{
+    color:white;
+    font-size:1.8rem;
+}
+.textBG{
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    height:308x;
+    margin-top:48px;
+}

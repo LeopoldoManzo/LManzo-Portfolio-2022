@@ -1,0 +1,53 @@
+body{
+    background-image: url('../images/mainBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+
+.nav-link{
+    color:white;
+    font-size:1.8rem;
+}
+
+.center{
+    /* Code below aligns all content to middle of home page */
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.bottom{
+    /* Code below aligns all content to middle of home page */
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+img{
+    height:180px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .noDisplay{
+    display: none;
+  }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .mobileNoDisplay{
+      display: none;
+    }
+    }

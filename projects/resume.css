@@ -1,0 +1,12 @@
+body{
+   background-image: url("/images/resume.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   font-family: 'Dosis', sans-serif;
+   color:white;
+}
+.nav-link{
+    color:white;
+    font-size:1.8rem;
+}
